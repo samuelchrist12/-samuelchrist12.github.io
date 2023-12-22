@@ -69,11 +69,11 @@ export default function Welcome({ auth, laravelVersion, phpVersion }) {
                         <p className="font-bold text-xl">Ayasara</p>
                         <p className="text-xl">Branding Design - 2023</p>
                         <p className="text-base mt-4">
-                            Lorem ipsum dolor sit amet consectetur. Est mollis
-                            turpis ultrices enim tortor. Consectetur non urna
-                            arcu suspendisse morbi sagittis pellentesque. Fusce
-                            maecenas sodales aliquet nec. Etiam integer dictumst
-                            viverra sit dolor tincidunt at quis ultrices.
+                            My first significant project as a Graphic Designer
+                            marked a pivotal moment in my career. It was also
+                            the place where I honed my skills and grew
+                            professionally. This experience has shaped me into
+                            the designer I am today.
                         </p>
                     </div>
                 </div>
@@ -205,7 +205,9 @@ export default function Welcome({ auth, laravelVersion, phpVersion }) {
                                         <span
                                             onClick={() => setShowModal(false)}
                                         >
-                                            <p className="hover:cursor-pointer">X</p>
+                                            <p className="hover:cursor-pointer">
+                                                X
+                                            </p>
                                         </span>
                                     </div>
                                     {/*body*/}
@@ -226,28 +228,26 @@ export default function Welcome({ auth, laravelVersion, phpVersion }) {
                                         <div className="flex flex-col gap-8 w-full mt-8 mb-20">
                                             <div className="flex gap-16 text-justify">
                                                 <p>
-                                                    Lorem ipsum dolor sit amet
-                                                    consectetur. Est mollis
-                                                    turpis ultrices enim tortor.
-                                                    Consectetur non urna arcu
-                                                    suspendisse morbi sagittis
-                                                    pellentesque. Fusce maecenas
-                                                    sodales aliquet nec. Etiam
-                                                    integer dictumst viverra sit
-                                                    dolor tincidunt at quis
-                                                    ultrices.
+                                                    @samuelc.i has embarked on a
+                                                    journey to craft a brand
+                                                    identity that seamlessly
+                                                    aligns with Ayasara's
+                                                    visionary goals. The mission
+                                                    was clear: create a design
+                                                    that not only captures
+                                                    attention but also embodies
+                                                    the essence of Ayasara
+                                                    itself.
                                                 </p>
                                                 <p>
-                                                    Lorem ipsum dolor sit amet
-                                                    consectetur. Est mollis
-                                                    turpis ultrices enim tortor.
-                                                    Consectetur non urna arcu
-                                                    suspendisse morbi sagittis
-                                                    pellentesque. Fusce maecenas
-                                                    sodales aliquet nec. Etiam
-                                                    integer dictumst viverra sit
-                                                    dolor tincidunt at quis
-                                                    ultrices.
+                                                    Drawing inspiration from
+                                                    Ayasara's own vibrant and
+                                                    distinctive logo, the
+                                                    challenge was to distill its
+                                                    brilliance into a design
+                                                    that exuded simplicity
+                                                    without compromising its
+                                                    bold character.
                                                 </p>
                                             </div>
                                             <div className="flex gap-16 text-justify">
@@ -261,18 +261,33 @@ export default function Welcome({ auth, laravelVersion, phpVersion }) {
                                                 <div className="flex basis-1/2 flex-col justify-center pr-20">
                                                     <p>
                                                         {" "}
-                                                        Lorem ipsum dolor sit
-                                                        amet consectetur. Est
-                                                        mollis turpis ultrices
-                                                        enim tortor. Consectetur
-                                                        non urna arcu
-                                                        suspendisse morbi
-                                                        sagittis pellentesque.
-                                                        Fusce maecenas sodales
-                                                        aliquet nec. Etiam
-                                                        integer dictumst viverra
-                                                        sit dolor tincidunt at
-                                                        quis ultrices.
+                                                        The result? A brand
+                                                        identity that's nothing
+                                                        short of eye-catching
+                                                        and entirely unique,
+                                                        mirroring the very ethos
+                                                        of Ayasara. It stands as
+                                                        a testament to our
+                                                        commitment to delivering
+                                                        designs that are not
+                                                        only visually stunning
+                                                        but also deeply rooted
+                                                        in the brand's core
+                                                        identity.
+                                                        <br /> <br />
+                                                        The key focus was on
+                                                        simplicity and color,
+                                                        mirroring the ethos of
+                                                        Ayasara's own logo. Each
+                                                        element was meticulously
+                                                        curated to maintain a
+                                                        clean and uncluttered
+                                                        look, while at the same
+                                                        time, ensuring that the
+                                                        spectrum of colors from
+                                                        the Ayasara logo found
+                                                        its place within the
+                                                        design.
                                                     </p>
                                                 </div>
                                                 <div className="flex gap-5 basis-1/2 flex-col justify-center">
@@ -281,7 +296,7 @@ export default function Welcome({ auth, laravelVersion, phpVersion }) {
                                                         alt=""
                                                     />
                                                     <img
-                                                        src="asset/images/6.png"
+                                                        src="asset/images/8.png"
                                                         alt=""
                                                     />
                                                 </div>
@@ -290,19 +305,19 @@ export default function Welcome({ auth, laravelVersion, phpVersion }) {
                                                 <div className="flex gap-5">
                                                     <div className="flex basis-1/3">
                                                         <img
-                                                            src="asset/images/6.png"
+                                                            src="asset/images/5.png"
                                                             alt=""
                                                         />
                                                     </div>
                                                     <div className="flex basis-1/3">
                                                         <img
-                                                            src="asset/images/6.png"
+                                                            src="asset/images/10.png"
                                                             alt=""
                                                         />
                                                     </div>
                                                     <div className="flex basis-1/3">
                                                         <img
-                                                            src="asset/images/6.png"
+                                                            src="asset/images/11.png"
                                                             alt=""
                                                         />
                                                     </div>
@@ -310,16 +325,30 @@ export default function Welcome({ auth, laravelVersion, phpVersion }) {
                                             </div>
                                             <div className="flex gap-16 text-justify px-72">
                                                 <p>
-                                                    Lorem ipsum dolor sit amet
-                                                    consectetur. Est mollis
-                                                    turpis ultrices enim tortor.
-                                                    Consectetur non urna arcu
-                                                    suspendisse morbi sagittis
-                                                    pellentesque. Fusce maecenas
-                                                    sodales aliquet nec. Etiam
-                                                    integer dictumst viverra sit
-                                                    dolor tincidunt at quis
-                                                    ultrices.
+                                                    Through countless iterations
+                                                    and a shared dedication to
+                                                    excellence, we successfully
+                                                    struck the perfect balance.
+                                                    The resulting brand identity
+                                                    is a symphony of vivid hues
+                                                    and minimalist design—a
+                                                    reflection of Ayasara's
+                                                    unwavering commitment to
+                                                    providing high-quality,
+                                                    innovative design solutions.{" "}
+                                                    <br /> <br />
+                                                    This project is not just a
+                                                    collaboration; it's a
+                                                    testament to the power of
+                                                    creative synergy. Together,
+                                                    we have not only met the
+                                                    challenge but surpassed it,
+                                                    creating a brand identity
+                                                    that stands tall as a beacon
+                                                    of excellence and a
+                                                    testament to what's possible
+                                                    when visionary minds come
+                                                    together."
                                                 </p>
                                             </div>
                                         </div>
