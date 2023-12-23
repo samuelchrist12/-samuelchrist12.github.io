@@ -1,12 +1,15 @@
 import { Link, Head } from "@inertiajs/react";
-import { useEffect, useState } from "react";
 import React from "react";
-import Profile from "js/asset/images/Profile baru-01-01.jpg";
+import Profile from "./Asset/images/Profile baru-01-01.jpg";
+import Project1 from "./Asset/images/tes.png";
+import Modal1 from "./Asset/images/5.png";
+import Project3 from "./Asset/images/Profile baru-01-01.jpg";
+import Project4 from "./Asset/images/Profile baru-01-01.jpg";
 
 
 export default function Welcome({ auth, laravelVersion, phpVersion }) {
     const [showModal, setShowModal] = React.useState(false);
-    return (
+    return (    
         <>
             <Head title="Samuel Portfolio" />
 
@@ -59,7 +62,7 @@ export default function Welcome({ auth, laravelVersion, phpVersion }) {
                         className="bg-clip border-white motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500  basis-2/3 gap-1 flex flex-col justify-center items-center text-center"
                     >
                         <img
-                            src="asset/images/tes.png"
+                            src={Project1}
                             className="rounded-2xl shadow-2xl shadow-gray-500/50"
                             alt=""
                             onClick={() => setShowModal(true)}
@@ -91,7 +94,7 @@ export default function Welcome({ auth, laravelVersion, phpVersion }) {
                     </div>
                     <div className="bg-clip border-white motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500  basis-2/3 gap-1 flex flex-col justify-center items-center text-center">
                         <img
-                            src="asset/images/tes.png"
+                            src={Project1}
                             className="rounded-2xl shadow-2xl shadow-gray-500/50"
                             alt=""
                         />
@@ -100,7 +103,7 @@ export default function Welcome({ auth, laravelVersion, phpVersion }) {
                 <div className="w-full flex gap-8 justify-center mt-8">
                     <div className="bg-clip border-white motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500  basis-2/3 gap-1 flex flex-col justify-center items-center text-center">
                         <img
-                            src="asset/images/tes.png"
+                            src={Project1}
                             className="rounded-2xl shadow-2xl shadow-gray-500/50"
                             alt=""
                         />
@@ -131,7 +134,7 @@ export default function Welcome({ auth, laravelVersion, phpVersion }) {
                     </div>
                     <div className="bg-clip border-white motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500  basis-2/3 gap-1 flex flex-col justify-center items-center text-center">
                         <img
-                            src="asset/images/tes.png"
+                            src={Project1}
                             className="rounded-2xl shadow-2xl shadow-gray-500/50"
                             alt=""
                         />
@@ -193,7 +196,7 @@ export default function Welcome({ auth, laravelVersion, phpVersion }) {
                     </div>
                 </div>
 
-                {/* modal */}
+                modal
                 {showModal ? (
                     <>
                         <div className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">
@@ -252,7 +255,7 @@ export default function Welcome({ auth, laravelVersion, phpVersion }) {
                                             </div>
                                             <div className="flex gap-16 text-justify">
                                                 <img
-                                                    src="asset/images/tes.png"
+                                                    src={Project1}
                                                     alt=""
                                                     className="hover:cursor-pointer"
                                                 />
@@ -292,11 +295,11 @@ export default function Welcome({ auth, laravelVersion, phpVersion }) {
                                                 </div>
                                                 <div className="flex gap-5 basis-1/2 flex-col justify-center">
                                                     <img
-                                                        src="asset/images/6.png"
+                                                        src={Modal1}
                                                         alt=""
                                                     />
                                                     <img
-                                                        src="asset/images/8.png"
+                                                        src={Modal1}
                                                         alt=""
                                                     />
                                                 </div>
@@ -305,19 +308,19 @@ export default function Welcome({ auth, laravelVersion, phpVersion }) {
                                                 <div className="flex gap-5">
                                                     <div className="flex basis-1/3">
                                                         <img
-                                                            src="asset/images/5.png"
+                                                            src={Modal1}
                                                             alt=""
                                                         />
                                                     </div>
                                                     <div className="flex basis-1/3">
                                                         <img
-                                                            src="asset/images/10.png"
+                                                            src={Modal1}
                                                             alt=""
                                                         />
                                                     </div>
                                                     <div className="flex basis-1/3">
                                                         <img
-                                                            src="asset/images/11.png"
+                                                            src={Modal1}
                                                             alt=""
                                                         />
                                                     </div>
