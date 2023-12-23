@@ -1,8 +1,8 @@
 import { Link, Head } from "@inertiajs/react";
 import { useEffect, useState } from "react";
 import React from "react";
-import Skeleton from "react-loading-skeleton";
-import "react-loading-skeleton/dist/skeleton.css";
+import Profile from "js/asset/images/Profile baru-01-01.jpg";
+
 
 export default function Welcome({ auth, laravelVersion, phpVersion }) {
     const [showModal, setShowModal] = React.useState(false);
@@ -17,7 +17,7 @@ export default function Welcome({ auth, laravelVersion, phpVersion }) {
                     <div className="bg-gray-800/50 bg-gradient-to-bl from-gray-700/30 via-transparent ring-1 ring-inset bg-blend-luminosity ring-white/5 'shadow-2xl shadow-gray-500/20  motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500  basis-1/3 gap-2 flex flex-col justify-center items-center text-center p-8 rounded-2xl">
                         <div className="bg-black w-36 h-36 rounded-full">
                             <img
-                                src="asset/images/Profile baru-01-01.jpg"
+                                src={Profile}
                                 className="rounded-full"
                                 alt=""
                             />
